@@ -1,0 +1,136 @@
+html{
+ margin: 0px;
+ padding: 0px;
+}
+
+/* contact */
+.contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 1080px;
+    margin: auto;
+} 
+
+.contact > div {
+    padding: 1em;    
+    padding:1em;
+    margin: auto;
+}
+.contact  a {
+    text-align: center;
+    color: inherit; 
+    text-decoration: inherit; 
+    font-size: 1.05em;
+}
+
+#head {
+    margin: auto;
+    max-width: 1080px;
+    text-align: center;
+    font-size: 4em;
+}
+
+/* main */ 
+.main {
+    display: grid;
+    grid-template-columns: 7fr 3fr;
+    grid-column-gap: 0.5em;
+    max-width: 1080px;
+    margin: auto;
+    padding-bottom: 0.5px;
+}
+
+.main  >  div { 
+    background:  #f5fffc;
+    padding:  1em;
+}
+
+.main > div:nth-child(odd) {
+    background: #f3f3f8;
+}
+
+.icongrp, .left, .right{
+    font-size: 2em;
+}
+
+.job h3 {
+    margin:0px;
+}
+.summary p{
+    margin-top: 0px;
+}
+
+
+
+.lendingclub > div, .codeprojects {
+    font-size: 0.6em;
+    margin-bottom: 0.2em;
+}
+
+#lc{
+    margin-bottom: 1em;
+}
+.time div{
+    color: rgb(139, 133, 190);
+    display: inline-block;
+    width: 49%;
+}
+.time > :nth-child(even){
+    color: rgb(92, 81, 190);
+    text-align: right;
+    font-weight: bold;
+}
+.codingdojo > img , .santaclara >img{
+    max-width: 50%;
+}
+
+/* Skills */
+#Languages h6{
+    margin-top: 0px;
+} 
+.right{
+    font-size: 1em;
+}
+
+/* Frameworks */
+.frameworks h6, .other h6{
+    margin-bottom:0px;
+}
+
+/* Education */
+
+
+@media only screen and (max-width:768px){
+    .main{
+        display: block;
+    }
+
+    #Languages > h6    
+    , label
+    {
+        display: none;
+    }
+    #Languages, h4, .contact i {
+        /* text-align: center; */
+        font-size: 2em;
+        margin-top: 0px;
+        margin-bottom: 0.5em;
+    }
+    .contact div{
+        display: inline-block;
+    }
+
+    .frameworks, .other{
+        font-size: 1.5em;
+        margin-left: 0.2em;
+        margin-right:0.2em;
+
+    }
+
+    h2 {
+        margin:0px;
+    }
+    
+    
+}
+
