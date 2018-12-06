@@ -13,14 +13,13 @@ html, body{
 
 .contact > div {
     padding: 1em;    
-    padding:1em;
     margin: auto;
 }
 .contact  a {
     text-align: center;
     color: inherit; 
     text-decoration: inherit; 
-    font-size: 1.05em;
+    font-size: 1.10em;
 }
 
 #head {
@@ -34,7 +33,7 @@ html, body{
 .main {
     display: grid;
     grid-template-columns: 7fr 3fr;
-    grid-column-gap: 0.25em;
+    grid-column-gap: 0.5em;
     max-width: 1080px;
     margin: auto;
 }
@@ -48,28 +47,28 @@ html, body{
     background: #f3f3f8;
 }
 
-.icongrp, .left, .right{
+.icongrp, .left{
     font-size: 2em;
 }
 
 .job h3 {
     margin:0px;
 }
-.summary p{
+.summary p, .right  h4{
     margin-top: 0px;
     margin-bottom: 25px;
 }
-#magic {
-    margin-left: 40px;
-}
+
+
+
 .line{
-    border-bottom: 1px grey solid;
+    border-bottom: 1px lightgrey solid;
 }
+
 
 .lendingclub , .projects {
     font-size: 0.6em;
-    margin-bottom: 0.2em;
-    margin-top: 20px;;
+    margin-top: 25px;
 }
 #lc{
     margin-bottom: 1em;
@@ -89,19 +88,19 @@ html, body{
 }
 
 /* Skills */
-#Languages h6{
-    margin-top: 0px;
-} 
-.right{
+label{
+    vertical-align: top;
+}
+/* Frameworks */ /* Education */
+.frameworks , .other, #education{
     font-size: 1.1em;
 }
 
-/* Frameworks */
-.frameworks h6, .other h6{
-    margin-bottom:0px;
+.left {
+    border-right: 1px lightgrey solid;
 }
 
-/* Education */
+
 
 
 @media only screen and (max-width:768px){
@@ -109,7 +108,7 @@ html, body{
         display: block;
     }
 
-    #Languages > h6    
+    #Languages > h3    
     , label
     {
         display: none;
